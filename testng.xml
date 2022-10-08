@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="com.codingAssignement">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="browser" value="chrome"/>
+    <classes>
+  		 <class name ="com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

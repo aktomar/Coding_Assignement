@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T17:38:01 IST" name="com.codingAssignement" finished-at="2022-10-08T17:38:18 IST" duration-ms="17166">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T17:38:01 IST" name="Test" finished-at="2022-10-08T17:38:18 IST" duration-ms="17166">
+      <class name="com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country@6fd83fc1]" started-at="2022-10-08T17:38:01 IST" name="Setup" finished-at="2022-10-08T17:38:18 IST" duration-ms="16484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Extract_ReleaseDate_and_Country()[pri:0, instance:com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country@6fd83fc1]" started-at="2022-10-08T17:38:18 IST" name="Extract_ReleaseDate_and_Country" finished-at="2022-10-08T17:38:18 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extract_ReleaseDate_and_Country -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country@6fd83fc1]" started-at="2022-10-08T17:38:18 IST" name="tearDown" finished-at="2022-10-08T17:38:18 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.codingAssignement.TestCases.Testcase_extract_ReleaseDate_and_Country -->
+    </test> <!-- Test -->
+  </suite> <!-- com.codingAssignement -->
+</testng-results>
