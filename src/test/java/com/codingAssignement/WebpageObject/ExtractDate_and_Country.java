@@ -30,6 +30,7 @@ public class ExtractDate_and_Country {
 	public void ExtractReleaseDate() {
 		
 		String Date = ReleaseDate.getText();
+		Assert.assertEquals("December 17, 2021 (United States)", Date);
 		System.out.println("ReleaseDate -->> "+Date);
 				
 	}
@@ -37,6 +38,7 @@ public class ExtractDate_and_Country {
     public void ExtractCountry() {
 		
 		String Coutry = Country.getText();
+	    	Assert.assertEquals("India", Coutry);
 		System.out.println("Country -->> "+Coutry);
 				
 	}
