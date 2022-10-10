@@ -10,6 +10,8 @@ public class Testcase_extract_ReleaseDate_and_Country extends BaseClass{
 	public void Extract_ReleaseDate_and_Country() {
 	
 		ExtractDate_and_Country dtCon = new ExtractDate_and_Country(driver);
+		
+		//Scrolling page vertically till the details we are validating on web page
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement ele = driver.findElement(By.xpath("//*[text()='December 17, 2021 (United States)']"));
 		js.executeScript("arguments[0].scrollIntoView();", ele);
